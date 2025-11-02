@@ -16,16 +16,14 @@ AI 쓰레기 분류 (Garbage Classification)
 
 프로젝트 구조 
 Garbage-Classification-AI/
-├── .devcontainer/         # GitHub Codespaces 설정 파일 포함
-├── app/                   # Streamlit 앱 코드 포함
-├── dataset/               # 원본 이미지 데이터 (무거워서 GitHub에 올리지 않음)
-├── notebooks/             # 훈련 및 실험에 사용된 Colab 노트북 파일
-├── saved_models/          # 최고의 성능을 보인 .h5 모델 파일과 class_indices.json 포함
-├── .gitattributes         # Git LFS 설정 파일
-├── README.md              # 프로젝트 소개 파일
-└── requirements.txt       # 필요한 Python 라이브러리 목록
-
-
+ --.devcontainer/         # GitHub Codespaces 자동 설정 파일
+ --app/                   # Streamlit 앱 코드
+ --dataset/               # 원본 이미지 데이터 (GitHub 비포함)
+ --notebooks/             # 훈련용 Colab 노트북
+ --saved_models/          # 훈련된 .h5 모델 및 class_indices.json
+ --.gitattributes         # Git LFS 설정
+ --README.md              # 프로젝트 소개 (현재 파일)
+ --requirements.txt       # Python 라이브러리 목록
 설치 및 앱 실행
 
 1. 준비 사항
