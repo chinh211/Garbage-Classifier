@@ -44,11 +44,11 @@ python3 -m venv venv
 # 가상 환경을 활성화합니다
 source venv/bin/activate
 
-4. 라이브러리 설치 (Cài đặt các Thư viện)
+4. 라이브러리 설치
 # requirements.txt 파일에서 필요한 모든 패키지를 설치합니다
 pip install -r requirements.txt
 
-5. 애플리케이션 실행 (Chạy Ứng dụng)
+5. 애플리케이션 실행
 streamlit run app/app.py
 이후 브라우저에서 http://localhost:8501로 접속합니다.
 
