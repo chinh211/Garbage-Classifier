@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Garbage Classifier - Advanced Data Exploration
-Phân tích kỹ lưỡng dataset trước khi training
-"""
-
 from google.colab import drive
 drive.mount('/content/drive')
 
